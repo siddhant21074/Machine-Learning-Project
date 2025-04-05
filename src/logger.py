@@ -8,7 +8,7 @@ os.makedirs(log_path,exist_ok=True)
 
 LOG_FILE_PATH = os.path.join(log_path,LOG_FILE)
 
-# Configuring the logger 
+# Configuring the logger    
 
 logging.basicConfig(
     filename=LOG_FILE_PATH,
